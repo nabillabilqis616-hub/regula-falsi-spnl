@@ -26,7 +26,6 @@ st.sidebar.markdown("---")
 st.sidebar.write("Output dapat diunduh sebagai CSV setelah komputasi.")
 
 # Helper: compile user function safely using sympy
-@st.cache_data
 def make_func(expr_str):
     x = sp.symbols("x")
     try:
