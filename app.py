@@ -9,7 +9,7 @@ import pandas as pd
 # gambar grafik fungsi
 import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="Solusi SPNL - Regula Falsi", layout="centered")
+st.set_page_config(page_title="HALOOOO SPNL - Regula Falsi", layout="centered")
 
 st.title("Solusi SPNL — Metode Regula Falsi (False Position)")
 st.write(
