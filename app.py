@@ -1,11 +1,15 @@
 # app.py
-import streamlit as st
+import streamlit as st 
+#mengolah simbol matematika
 import sympy as sp
+#hitung numerik
 import numpy as np
+# untuk membuat tabel iterasi
 import pandas as pd
+# gambar grafik fungsi
 import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="SPNL - Regula Falsi", layout="centered")
+st.set_page_config(page_title="Solusi SPNL - Regula Falsi", layout="centered")
 
 st.title("Solusi SPNL — Metode Regula Falsi (False Position)")
 st.write(
