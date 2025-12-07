@@ -9,13 +9,15 @@ import pandas as pd
 # gambar grafik fungsi
 import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="HALOOOO SPNL - Regula Falsi", layout="centered")
+#Judul tab Browser
+st.set_page_config(page_title="Solusi SPNL - Regula Falsi", layout="centered")
 
+#Judul
 st.title("Solusi SPNL — Metode Regula Falsi (False Position)")
 st.write(
     "Aplikasi ini menghitung akar persamaan non-linear tunggal menggunakan metode Regula Falsi. "
     "Masukkan fungsi f(x) (contoh: `x**3 - x - 2`) dan interval [a, b]."
-)
+) #Deskripsi
 
 # Sidebar inputs
 st.sidebar.header("Pengaturan")
